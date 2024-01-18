@@ -1,0 +1,97 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #da5550;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+.maquetacion {
+    width: 500px;
+    height: 800px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.barra {
+    display: flex;
+    gap: 20pX;
+    margin-bottom: 25px;
+}
+
+.input1 {
+    background: none;
+    border: none;
+    color: white;
+}
+
+#input1::placeholder {
+    color: white;
+    opacity: 0.5;
+    font-size: larger;
+
+}
+
+#cuadrado {
+    font-size: 25px;
+}
+
+
+
+#input1:focus {
+    outline: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+.tarea {
+    width: 450px;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#papelera {
+    font-size: 22px;
+}
+
+.boton2 {
+    border: none;
+    background-color: transparent;
+
+}
+
+.boton2:hover {
+
+    color: red;
+}
+
+.boton1 {
+    border: none;
+    background-color: transparent;
+    color: white;
+
+}
+
+.boton1:hover {
+
+    color: rgb(26, 214, 26);
+}
